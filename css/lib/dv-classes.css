@@ -1,0 +1,68 @@
+/*******************
+ * dv-classes.css provides default classes to use for specific goals
+ */
+ 
+	.align-left {
+		text-align: left;
+	}
+	.align-center {
+		text-align: center;
+	}
+	.align-right {
+		text-align: right;
+	}
+	.align-justify {
+		text-align: justify;
+	}
+	
+	.valign-center {
+		vertical-align: middle;
+	}
+	
+	.width-full {
+		width: 100%;
+	}
+	.height-full {
+		height: 100%;
+	}
+	
+	.margin-auto {
+		margin: auto;
+	}
+	
+	.hidden {
+		display: none;
+	}
+	
+	.overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.border-none {
+		border: none;
+	}
+	
+	.text-bold {
+		font-weight: bold;
+	}
+	.text-italic {
+		font-style: italic;
+	}
+	
+	.cursor-pointer {
+		cursor: pointer;
+	}
+	
+	.float-left {
+		float: left;
+	}
+	.float-right {
+		float: right;
+	}
+	.float-center {
+		margin: auto;
+	}

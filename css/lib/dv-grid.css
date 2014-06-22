@@ -1,0 +1,48 @@
+/*******************
+ * dv-grid.css provides a robust grid system compatible with IE7+ and good browsers
+ */
+ 
+.grid-row {
+	clear: both;
+	width: 100%;
+	position: relative;
+}
+.grid-row:after {
+	content: "020"; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.grid-column {
+	position: relative;
+	float: left;
+	min-height: 1px;
+	height: 100%;
+}
+
+.grid-size-1-24 { width: 4.166666666666667%; }
+.grid-size-2-24 { width: 8.333333333333333%; }
+.grid-size-3-24 { width: 12.5%; }
+.grid-size-4-24 { width: 16.66666666666667%; }
+.grid-size-5-24 { width: 20.83333333333334%; }
+.grid-size-6-24 { width: 25%; }
+.grid-size-7-24 { width: 29.166666666666667%; }
+.grid-size-8-24 { width: 33.333333333333333%; }
+.grid-size-9-24 { width: 37.5%; }
+.grid-size-10-24 { width: 41.66666666666667%; }
+.grid-size-11-24 { width: 45.83333333333334%; }
+.grid-size-12-24 { width: 50%; }
+.grid-size-13-24 { width: 54.166666666666667%; }
+.grid-size-14-24 { width: 58.333333333333333%; }
+.grid-size-15-24 { width: 62.5%; }
+.grid-size-16-24 { width: 66.66666666666667%; }
+.grid-size-17-24 { width: 70.83333333333334%; }
+.grid-size-18-24 { width: 75%; }
+.grid-size-19-24 { width: 79.166666666666667%; }
+.grid-size-20-24 { width: 83.333333333333333%; }
+.grid-size-21-24 { width: 87.5%; }
+.grid-size-22-24 { width: 91.66666666666667%; }
+.grid-size-23-24 { width: 95.83333333333334%; }
+.grid-size-24-24 { width: 100%; }
