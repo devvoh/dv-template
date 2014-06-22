@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+
+/*******************
+ * dv-colors.css provides default colors to use for specific goals
+ */
+
+/* system colors */
+    .alert {
+        color: #ee0000;
+    }
+    .alert-background {
+        background: #f5bcbc;
+    }
+    .warning {
+        color: #e37900;
+    }
+    .warning-background {
+        background: #f5c793;
+    }
+    .correct {
+        color: #4dbd71;
+    }
+    .correct-background {
+       background: #bcf5ce;
+    }
+    .notice {
+        color: #777777;
+    }
+    .notice-background {
+        background: #ddd;
+    }
+ 
+/* base colors (white/black/grey) */
+    .color-black {
+        color: black;
+    }
+    .color-white {
+        color: white;
+    } 
+    .color-grey-light {
+        color: #ccc;
+    }
+    .color-grey {
+        color: #999;
+    }
+    .color-grey-dark {
+        color: #777;
+    }
+    .color-grey-darkest {
+        color: #555;
+    }
+     
+/* base background colors */
+    .background-black {
+        background: black;
+    }
+    .background-white {
+        background: white;
+    } 
+    .background-grey-light {
+        background: #ccc;
+    }
+    .background-grey {
+        background: #999;
+    }
+    .background-grey-dark {
+        background: #777;
+    }
+    .background-grey-darkest {
+        background: #555;
+    }
+  
+/* colors */
+    .color-red-light {
+        color: #fc7979;
+    }
+    .color-red {
+        color: #dd0000;
+    }
+    .color-red-dark {
+        color: #990000;
+    }
+    
+    .color-green-light {
+        color: #88FC88;
+    }
+    .color-green {
+        color: #29d529;
+    }
+    .color-green-dark {
+        color: #0b9c0b;
+    }
+    
+    .color-blue-light {
+        color: #69b9ef;
+    }
+    .color-blue {
+        color: #2097e6;
+    }
+    .color-blue-dark {
+        color: #0970b5;
+    }
+    
+    .color-orange-light {
+        color: #ffc05c;
+    }
+    .color-orange {
+        color: #ff9c00;
+    }
+    .color-orange-dark {
+        color: #de7607;
+    }
+    
+    .color-yellow-light {
+        color: #ffee82;
+    }
+    .color-yellow {
+        color: #fcdB05;
+    }
+    .color-yellow-dark {
+        color: #f7ca00;
+    }
+    
+/* background colors */
+    .background-red-light {
+        background: #fc7979;
+    }
+    .background-red {
+        background: #ee0000;
+    }
+    .background-red-dark {
+        background: #990000;
+    }
+    
+    .background-green-light {
+        background: #88FC88;
+    }
+    .background-green {
+        background: #29d529;
+    }
+    .background-green-dark {
+        background: #0b9c0b;
+    }
+    
+    .background-blue-light {
+        background: #69b9ef;
+    }
+    .background-blue {
+        background: #2097e6;
+    }
+    .background-blue-dark {
+        background: #0970b5;
+    }
+    
+    .background-orange-light {
+        background: #ffc05c;
+    }
+    .background-orange {
+        background: #ff9c00;
+    }
+    .background-orange-dark {
+        background: #de7607;
+    }
+    
+    .background-yellow-light {
+        background: #ffee82;
+    }
+    .background-yellow {
+        background: #fcdB05;
+    }
+    .background-yellow-dark {
+        background: #f7ca00;
+    }
+
+/* third-party brand colors */
+    .color-brand-twitter {
+        color: #00aced;
+    }
+    .background-brand-twitter {
+        background: #00aced;
+    }
+    
+    .color-brand-linkedin {
+        color: #007bb6;
+    }
+    .background-brand-linkedin {
+        background: #007bb6;
+    }
+    
+    .color-brand-facebook {
+        color: #3b5998;
+    }
+    .background-brand-facebook {
+        background: #3b5998;
+    }
+    
+    .color-brand-google-plus {
+        color: #dd4b39;
+    }
+    .background-brand-google-plus {
+        background: #dd4b39;
+    }
+    
+    .color-brand-instagram {
+        color: #3f729b;
+    }
+    .background-brand-instagram {
+        background: #3f729b;
+    }
+    
+    .color-brand-youtube {
+        color: #bb0000;
+    }
+    .background-brand-youtube {
+        background: #bb0000;
+    }
+    
