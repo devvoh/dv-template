@@ -21,7 +21,6 @@
 	position: relative;
 	float: left;
 	min-height: 1px;
-	height: 100%;
 }
 
 .grid-size-1-24 { width: 4.166666666666667%; }
