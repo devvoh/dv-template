@@ -19,7 +19,7 @@
 	
 	<body>
 	
-		<header>
+		<header class="background-grey width-half margin-auto">
 			<!-- header goes here -->
 			<nav>
 				<!-- navigation goes here -->
