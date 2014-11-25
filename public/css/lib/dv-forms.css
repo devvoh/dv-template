@@ -12,11 +12,11 @@ input[type=search], input[type=url], input[type=button], input[type=submit],
 select,
 textarea {
 	border: 1px solid #999;
-	border-radius: 4px;
-	padding: 4px 8px;
-	height: 28px;
+	border-radius: 0.25em;
+	padding: 0.25em 0.5em;
+	line-height: 2em;
 	margin: 0;
-	min-width: 200px;
+	font-size: 0.8em;
 }
 input[type=button], input[type=submit], .button {
 	min-width: 0;

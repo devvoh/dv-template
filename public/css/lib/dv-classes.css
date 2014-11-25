@@ -74,9 +74,12 @@
 	.width-third {
 		width: 33%;
 	}
-	.width-two-thirds {
-		width: 66%;
-	}
+    .width-two-thirds {
+        width: 66%;
+    }
+    .width-three-quarters {
+        width: 75%;
+    }
 	.width-auto {
 		width: auto;
 	}
@@ -107,6 +110,7 @@
 		height: 100%;
 	}
 	
+/* border */
 	.border-none {
 		border: none;
 	}
@@ -117,7 +121,7 @@
 		font-weight: normal !important;
 	}
 	.text-italic {
-		font-style:italic;
+		font-style: italic;
 	}
 	.text-bold {
 		font-weight: bold !important; 
@@ -131,8 +135,8 @@
 	.text-strike {
 		text-decoration: line-through;
 	}
-	.text-indent, .indent {
-		margin-left: 20px;
+	.text-indent {
+		margin-left: 2em;
 	}
  	.text-huge {
  		font-size: 2em;
@@ -165,6 +169,7 @@
 		cursor: pointer;
 	}
 	
+/* unselectable */
 	.unselectable {
 		-webkit-touch-callout:    none;
 		-webkit-user-select:      none;
