@@ -1,4 +1,7 @@
-
+/*******************
+ * dv-import.css provides an easy way to include all relevant files
+ */
+  
 @import './dv-classes.css';
 @import './dv-colors.css';
 @import './dv-grid.css';

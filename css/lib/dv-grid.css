@@ -1,26 +1,23 @@
-@CHARSET "UTF-8";
-
 /*******************
  * dv-grid.css provides a robust grid system compatible with IE7+ and good browsers
  */
  
 .grid-row {
-	clear: both;
-	width: 100%;
-	position: relative;
+    width: 100%;
+    position: relative;
 }
 .grid-row:after {
-	content: "020"; 
-	display: block; 
-	height: 0; 
-	clear: both; 
-	visibility: hidden;
+    content: ''; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
 }
 
 [class*='grid-column-'] {
-	position: relative;
-	float: left;
-	min-height: 1px;
+    position: relative;
+    float: left;
+    min-height: 1px;
 }
 
 .grid-column-1-24 { width: 4.166666666666667%; }
