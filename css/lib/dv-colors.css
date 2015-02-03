@@ -1,217 +1,217 @@
 /*******************
- * dv-template v0.1
+ * dv-template v0.2
  * 2015, devvoh.com, https://github.com/devvoh/dv-template
  *
  * dv-classes.css provides default classes to use for specific goals
  */
 
 /* system colors */
-.color-alert {
+.dv-color-alert {
     color: #ee0000 !important;
 }
-.background-alert {
+.dv-background-alert {
     background: #f5bcbc !important;
 }
-.color-warning {
+.dv-color-warning {
     color: #e37900 !important;
 }
-.background-warning {
+.dv-background-warning {
     background: #f5c793 !important;
 }
-.color-correct {
+.dv-color-correct {
     color: #4dbd71 !important;
 }
-.background-correct {
+.dv-background-correct {
    background: #bcf5ce !important;
 }
-.color-notice {
+.dv-color-notice {
     color: #777777 !important;
 }
-.background-notice {
+.dv-background-notice {
     background: #ddd !important;
 }
 
 /* base colors (white/black/grey) */
-.color-black {
+.dv-color-black {
     color: black !important;
 }
-.color-white {
+.dv-color-white {
     color: white !important;
 }
-.color-grey-light {
+.dv-color-grey-light {
     color: #ccc !important;
 }
-.color-grey {
+.dv-color-grey {
     color: #999 !important;
 }
-.color-grey-dark {
+.dv-color-grey-dark {
     color: #777 !important;
 }
-.color-grey-darkest {
+.dv-color-grey-darkest {
     color: #555 !important;
 }
 
 /* base background colors */
-.background-black {
+.dv-background-black {
     background: black !important;
 }
-.background-white {
+.dv-background-white {
     background: white !important;
 }
-.background-grey-light {
+.dv-background-grey-light {
     background: #ccc !important;
 }
-.background-grey {
+.dv-background-grey {
     background: #999 !important;
 }
-.background-grey-dark {
+.dv-background-grey-dark {
     background: #777 !important;
 }
-.background-grey-darkest {
+.dv-background-grey-darkest {
     background: #555 !important;
 }
 
 /* colors */
-.color-red-light {
+.dv-color-red-light {
     color: #e65757 !important;
 }
-.color-red {
+.dv-color-red {
     color: #dd0000 !important;
 }
-.color-red-dark {
+.dv-color-red-dark {
     color: #990000 !important;
 }
 
-.color-green-light {
+.dv-color-green-light {
     color: #68e868 !important;
 }
-.color-green {
+.dv-color-green {
     color: #29d529 !important;
 }
-.color-green-dark {
+.dv-color-green-dark {
     color: #0b9c0b !important;
 }
 
-.color-blue-light {
+.dv-color-blue-light {
     color: #69b9ef !important;
 }
-.color-blue {
+.dv-color-blue {
     color: #2097e6 !important;
 }
-.color-blue-dark {
+.dv-color-blue-dark {
     color: #0970b5 !important;
 }
 
-.color-orange-light {
+.dv-color-orange-light {
     color: #ffc05c !important;
 }
-.color-orange {
+.dv-color-orange {
     color: #ff9c00 !important;
 }
-.color-orange-dark {
+.dv-color-orange-dark {
     color: #de7607 !important;
 }
 
-.color-yellow-light {
+.dv-color-yellow-light {
     color: #ffee82 !important;
 }
-.color-yellow {
+.dv-color-yellow {
     color: #fcdB05 !important;
 }
-.color-yellow-dark {
+.dv-color-yellow-dark {
     color: #f7ca00 !important;
 }
 
 /* background colors */
-.background-red-light {
+.dv-background-red-light {
     background: #e65757 !important;
 }
-.background-red {
+.dv-background-red {
     background: #ee0000 !important;
 }
-.background-red-dark {
+.dv-background-red-dark {
     background: #990000 !important;
 }
 
-.background-green-light {
+.dv-background-green-light {
     background: #68e868 !important;
 }
-.background-green {
+.dv-background-green {
     background: #29d529 !important;
 }
-.background-green-dark {
+.dv-background-green-dark {
     background: #0b9c0b !important;
 }
 
-.background-blue-light {
+.dv-background-blue-light {
     background: #69b9ef !important;
 }
-.background-blue {
+.dv-background-blue {
     background: #2097e6 !important;
 }
-.background-blue-dark {
+.dv-background-blue-dark {
     background: #0970b5 !important;
 }
 
-.background-orange-light {
+.dv-background-orange-light {
     background: #ffc05c !important;
 }
-.background-orange {
+.dv-background-orange {
     background: #ff9c00 !important;
 }
-.background-orange-dark {
+.dv-background-orange-dark {
     background: #de7607 !important;
 }
 
-.background-yellow-light {
+.dv-background-yellow-light {
     background: #ffee82 !important;
 }
-.background-yellow {
+.dv-background-yellow {
     background: #fcdB05 !important;
 }
-.background-yellow-dark {
+.dv-background-yellow-dark {
     background: #f7ca00 !important;
 }
 
 /* brand colors - these are not decided by us */
-.color-brand-twitter {
+.dv-color-brand-twitter {
     color: #00aced !important;
 }
-.background-brand-twitter {
+.dv-background-brand-twitter {
     background: #00aced !important;
 }
 
-.color-brand-linkedin {
+.dv-color-brand-linkedin {
     color: #007bb6 !important;
 }
-.background-brand-linkedin {
+.dv-background-brand-linkedin {
     background: #007bb6 !important;
 }
 
-.color-brand-facebook {
+.dv-color-brand-facebook {
     color: #3b5998 !important;
 }
-.background-brand-facebook {
+.dv-background-brand-facebook {
     background: #3b5998 !important;
 }
 
-.color-brand-google-plus {
+.dv-color-brand-google-plus {
     color: #dd4b39 !important;
 }
-.background-brand-google-plus {
+.dv-background-brand-google-plus {
     background: #dd4b39 !important;
 }
 
-.color-brand-instagram {
+.dv-color-brand-instagram {
     color: #3f729b !important;
 }
-.background-brand-instagram {
+.dv-background-brand-instagram {
     background: #3f729b !important;
 }
 
-.color-brand-youtube {
+.dv-color-brand-youtube {
     color: #bb0000 !important;
 }
-.background-brand-youtube {
+.dv-background-brand-youtube {
     background: #bb0000 !important;
 }

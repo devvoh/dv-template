@@ -1,60 +1,60 @@
 /*******************
- * dv-template v0.1
+ * dv-template v0.2
  * 2015, devvoh.com, https://github.com/devvoh/dv-template
  *
  * dv-classes.css provides default classes to use for specific goals
  */
  
 /* positions */
-.align-left {
+.dv-align-left {
     text-align: left;
 }
-.align-center {
+.dv-align-center {
     text-align: center;
 }
-.align-right {
+.dv-align-right {
     text-align: right;
 }
-.align-justify {
+.dv-align-justify {
     text-align: justify;
 }
 
-.valign-center {
+.dv-valign-center {
     vertical-align: middle;
 }
-.valign-top {
+.dv-valign-top {
     vertical-align: top;
 }
-.valign-bottom {
+.dv-valign-bottom {
     vertical-align: bottom;
 }
 
-.float-left {
+.dv-float-left {
     float: left;
 }
-.float-right {
+.dv-float-right {
     float: right;
 }
-.float-none {
+.dv-float-none {
     float: none;
 }
-.float-inherit {
+.dv-float-inherit {
     float: inherit;
 }
 
-.margin-auto {
+.dv-margin-auto {
     margin: auto;
 }
 
 /* animate */
-.animate-fast {
+.dv-animate-fast {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.animate-slow {
+.dv-animate-slow {
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
@@ -63,47 +63,47 @@
 }
 
 /* sizing */    
-.width-full {
+.dv-width-full {
     width: 100%;
 }
-.width-half {
+.dv-width-half {
     width: 50%;
 }
-.width-quarter {
+.dv-width-quarter {
     width: 25%;
 }
-.width-third {
+.dv-width-third {
     width: 33%;
 }
-.width-two-thirds {
+.dv-width-two-thirds {
     width: 66%;
 }
-.width-three-quarters {
+.dv-width-three-quarters {
     width: 75%;
 }
-.width-auto {
+.dv-width-auto {
     width: auto;
 }
 
-.height-full {
+.dv-height-full {
     height: 100%;
 }
 
 /* visibility */
-.display-none {
+.dv-display-none {
     display: none;
 }
-.display-block {
+.dv-display-block {
     display: block;
 }
-.visible {
+.dv-visible {
     visibility: visible;
 }
-.invisible {
+.dv-invisible {
     visibility: hidden;
 }
 
-.overlay {
+.dv-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -112,31 +112,31 @@
 }
 
 /* border */
-.border-none {
+.dv-border-none {
     border: none;
 }
 
 /* text styling */
-.text-normal {
+.dv-text-normal {
     font-size: 1em;
     font-weight: normal !important;
 }
-.text-italic {
+.dv-text-italic {
     font-style: italic;
 }
-.text-bold {
+.dv-text-bold {
     font-weight: bold !important; 
 }
-.text-underline {
+.dv-text-underline {
     text-decoration: underline;
 }
-.text-overline {
+.dv-text-overline {
     text-decoration: overline;
 }
-.text-strike {
+.dv-text-strike {
     text-decoration: line-through;
 }
-.text-indent {
+.dv-text-indent {
     margin-left: 2em;
 }
  .text-huge {
@@ -163,15 +163,15 @@
 }
  
 /* cursor styles */
-.cursor-default {
+.dv-cursor-default {
     cursor: default;
 }
-.cursor-pointer {
+.dv-cursor-pointer {
     cursor: pointer;
 }
 
 /* unselectable */
-.unselectable {
+.dv-unselectable {
     -webkit-touch-callout:    none;
     -webkit-user-select:      none;
     -khtml-user-select:       none;
