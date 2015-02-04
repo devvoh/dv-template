@@ -3,6 +3,7 @@
  * 2015, devvoh.com, https://github.com/devvoh/dv-template
  *
  * dv-classes.css provides default classes to use for specific goals
+ * and default notification message containers
  */
 
 /* system colors */
@@ -10,25 +11,25 @@
     color: #ee0000 !important;
 }
 .dv-background-alert {
-    background: #f5bcbc !important;
+    background-color: #ee0000 !important;
 }
 .dv-color-warning {
     color: #e37900 !important;
 }
 .dv-background-warning {
-    background: #f5c793 !important;
+    background-color: #e37900 !important;
 }
 .dv-color-correct {
     color: #4dbd71 !important;
 }
 .dv-background-correct {
-   background: #bcf5ce !important;
+    background-color: #4dbd71 !important;
 }
 .dv-color-notice {
     color: #777777 !important;
 }
 .dv-background-notice {
-    background: #ddd !important;
+    background-color: #777777 !important;
 }
 
 /* base colors (white/black/grey) */
@@ -47,31 +48,33 @@
 .dv-color-grey-dark {
     color: #777 !important;
 }
-.dv-color-grey-darkest {
+.dv-color-grey-darker {
     color: #555 !important;
 }
 
 /* base background colors */
 .dv-background-black {
-    background: black !important;
+    background-color: black !important;
 }
 .dv-background-white {
-    background: white !important;
+    background-color: white !important;
 }
 .dv-background-grey-light {
-    background: #ccc !important;
+    background-color: #ccc !important;
 }
 .dv-background-grey {
-    background: #999 !important;
+    background-color: #999 !important;
 }
 .dv-background-grey-dark {
-    background: #777 !important;
+    background-color: #777 !important;
 }
-.dv-background-grey-darkest {
-    background: #555 !important;
+.dv-background-grey-darker {
+    background-color: #555 !important;
 }
 
 /* colors */
+
+/* red */
 .dv-color-red-light {
     color: #e65757 !important;
 }
@@ -82,6 +85,7 @@
     color: #990000 !important;
 }
 
+/* green */
 .dv-color-green-light {
     color: #68e868 !important;
 }
@@ -92,6 +96,7 @@
     color: #0b9c0b !important;
 }
 
+/* blue */
 .dv-color-blue-light {
     color: #69b9ef !important;
 }
@@ -102,6 +107,7 @@
     color: #0970b5 !important;
 }
 
+/* orange */
 .dv-color-orange-light {
     color: #ffc05c !important;
 }
@@ -112,6 +118,7 @@
     color: #de7607 !important;
 }
 
+/* yellow */
 .dv-color-yellow-light {
     color: #ffee82 !important;
 }
@@ -123,95 +130,126 @@
 }
 
 /* background colors */
+
+/* red */
 .dv-background-red-light {
-    background: #e65757 !important;
+    background-color: #e65757 !important;
 }
 .dv-background-red {
-    background: #ee0000 !important;
+    background-color: #ee0000 !important;
 }
 .dv-background-red-dark {
-    background: #990000 !important;
+    background-color: #990000 !important;
 }
 
+/* green */
 .dv-background-green-light {
-    background: #68e868 !important;
+    background-color: #68e868 !important;
 }
 .dv-background-green {
-    background: #29d529 !important;
+    background-color: #29d529 !important;
 }
 .dv-background-green-dark {
-    background: #0b9c0b !important;
+    background-color: #0b9c0b !important;
 }
 
+/* blue */
 .dv-background-blue-light {
-    background: #69b9ef !important;
+    background-color: #69b9ef !important;
 }
 .dv-background-blue {
-    background: #2097e6 !important;
+    background-color: #2097e6 !important;
 }
 .dv-background-blue-dark {
-    background: #0970b5 !important;
+    background-color: #0970b5 !important;
 }
 
+/* orange */
 .dv-background-orange-light {
-    background: #ffc05c !important;
+    background-color: #ffc05c !important;
 }
 .dv-background-orange {
-    background: #ff9c00 !important;
+    background-color: #ff9c00 !important;
 }
 .dv-background-orange-dark {
-    background: #de7607 !important;
+    background-color: #de7607 !important;
 }
 
+/* yellow */
 .dv-background-yellow-light {
-    background: #ffee82 !important;
+    background-color: #ffee82 !important;
 }
 .dv-background-yellow {
-    background: #fcdB05 !important;
+    background-color: #fcdB05 !important;
 }
 .dv-background-yellow-dark {
-    background: #f7ca00 !important;
+    background-color: #f7ca00 !important;
 }
 
-/* brand colors - these are not decided by us */
+/* brand colors - these are predefined */
+.dv-color-brand-devvoh {
+    color: #1f8bc2 !important;
+}
+.dv-background-brand-devvoh {
+    background-color: #1f8bc2 !important;
+}
+
 .dv-color-brand-twitter {
     color: #00aced !important;
 }
 .dv-background-brand-twitter {
-    background: #00aced !important;
+    background-color: #00aced !important;
 }
 
 .dv-color-brand-linkedin {
     color: #007bb6 !important;
 }
 .dv-background-brand-linkedin {
-    background: #007bb6 !important;
+    background-color: #007bb6 !important;
 }
 
 .dv-color-brand-facebook {
     color: #3b5998 !important;
 }
 .dv-background-brand-facebook {
-    background: #3b5998 !important;
+    background-color: #3b5998 !important;
 }
 
-.dv-color-brand-google-plus {
+.dv-color-brand-googleplus {
     color: #dd4b39 !important;
 }
-.dv-background-brand-google-plus {
-    background: #dd4b39 !important;
+.dv-background-brand-googleplus {
+    background-color: #dd4b39 !important;
 }
 
 .dv-color-brand-instagram {
     color: #3f729b !important;
 }
 .dv-background-brand-instagram {
-    background: #3f729b !important;
+    background-color: #3f729b !important;
 }
 
 .dv-color-brand-youtube {
     color: #bb0000 !important;
 }
 .dv-background-brand-youtube {
-    background: #bb0000 !important;
+    background-color: #bb0000 !important;
+}
+
+/* notification container */
+.dv-notification {
+    position: relative;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 0.25rem 0.5rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+.dv-notification.closable:after {
+    content: '\f00d';
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
